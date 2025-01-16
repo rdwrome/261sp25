@@ -69,7 +69,7 @@ Final Project | 30%
     - Correctly document all your debugging, especially if you code ultimately does not run as intended. I will take points off for code that does not run correctly, but will still give partial credit if it is well-documented.
     - For the purposes of this class, your documentation file also helps you prepare to talk about your code in class with your colleagues.
     - In general (unless I specify otherwise), it is permissible to use chat-GPT or other large-language models under the following circumstances:
-      - You document the ENTIRE INTERACTION with screenshots and include images of those screen shots with your documentation.
+      - You document the **ENTIRE INTERACTION** with screenshots and include images of those screen shots with your documentation.
       - You write out *in your own words* your **SPECIFIC** understanding of what you learned from using chat-GPT in your documentation file.
 
 ## Instructor Info
