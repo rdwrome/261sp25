@@ -6,8 +6,6 @@
 - Conditional statements use Boolean Logic (testing for truthiness!)
 - If, else and their permutations are all **iterative** conditional statements, meaning they're not self-referential (more on this later!)
 
-## .js files in Visual Studio Code
-
 ## Code Along
 ```javascript
 // if
@@ -127,9 +125,37 @@ func(5);
 function draw() {
   console.log(frameCount);
 }
+// count click
+let click;
+
+function setup() {
+  createCanvas(100, 100);
+  click = new p5.Oscillator('sine');
+  click.amp(0.5);
+  click.start();
+  click.freq(440);
+  click.stop(); // Start silent
+}
+
+function draw() {
+  if (frameCount % 30 === 0) { // Every 30 frames
+    click.start();
+    setTimeout(() => click.stop(), 100); // Play a short blip
+  }
+}
 // draw
 function draw() {
   line(0, 50, 100, 50);
+}
+// sustain
+let osc;
+
+function setup() {
+  createCanvas(100, 100);
+  osc = new p5.Oscillator('sawtooth');
+  osc.amp(0.2);
+  osc.freq(220);
+  osc.start();
 }
 // linefill
 let y = 0.0;
@@ -137,6 +163,23 @@ let y = 0.0;
 function draw() {
   line(0, y, 100, y);
   y = y + 0.5;
+}
+// pitchrise
+let osc;
+let y = 0;
+
+function setup() {
+  createCanvas(100, 100);
+  osc = new p5.Oscillator('triangle');
+  osc.start();
+  osc.amp(0.2);
+}
+
+function draw() {
+  line(0, y, 100, y);
+  let freq = map(y, 0, height, 200, 800);
+  osc.freq(freq);
+  y += 0.5;
 }
 // moveline
 let y = 0.0;
@@ -146,6 +189,29 @@ function draw() {
   line(0, y, 100, y);
   y = y + 0.5;
   if (y >= 100) {
+    y = 0;
+  }
+}
+// pitch sweep
+let osc;
+let y = 0;
+
+function setup() {
+  createCanvas(100, 100);
+  osc = new p5.Oscillator('sawtooth');
+  osc.start();
+  osc.amp(0.2);
+}
+
+function draw() {
+  background(204);
+  line(0, y, 100, y);
+
+  let freq = map(y, 0, height, 200, 800);
+  osc.freq(freq);
+
+  y += 0.5;
+  if (y >= height) {
     y = 0;
   }
 }
@@ -159,6 +225,28 @@ function setup() {
 function draw() {
   line(0, y, 300, y);
   y += 4;
+}
+// hear lines
+let osc;
+let y = 0;
+
+function setup() {
+  createCanvas(300, 300);
+  osc = new p5.Oscillator('square');
+  osc.start();
+  osc.amp(0.1);
+}
+
+function draw() {
+  line(0, y, width, y);
+
+  let freq = map(y, 0, height, 100, 1000);
+  osc.freq(freq);
+
+  y += 4;
+  if (y >= height) {
+    y = 0;
+  }
 }
 // draw eye
 function setup() {
@@ -174,5 +262,45 @@ function draw() {
   ellipse(60, 50, 30, 30);
   fill(255);
   ellipse(66, 45, 6, 6);
+}
+// eye sonification
+let osc1, osc2, osc3;
+
+function setup() {
+  createCanvas(100, 100);
+  noStroke();
+
+  // Create three oscillators for different parts of the eye
+  osc1 = new p5.Oscillator('sine');
+  osc2 = new p5.Oscillator('square');
+  osc3 = new p5.Oscillator('triangle');
+
+  osc1.freq(300); // White of the eye
+  osc2.freq(500); // Iris
+  osc3.freq(800); // Highlight
+
+  osc1.amp(0.2);
+  osc2.amp(0.2);
+  osc3.amp(0.2);
+
+  osc1.start();
+  osc2.start();
+  osc3.start();
+}
+
+function draw() {
+  background(204);
+
+  // Adjust amplitudes over time for animation effect
+  osc1.amp(map(sin(frameCount * 0.1), -1, 1, 0.1, 0.5));
+  osc2.amp(map(sin(frameCount * 0.2), -1, 1, 0.1, 0.5));
+  osc3.amp(map(sin(frameCount * 0.3), -1, 1, 0.1, 0.5));
+
+  fill(255);
+  ellipse(50, 50, 60, 60); // White of the eye
+  fill(0);
+  ellipse(60, 50, 30, 30); // Iris
+  fill(255);
+  ellipse(66, 45, 6, 6);   // Highlight
 }
 ```

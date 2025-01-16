@@ -1,10 +1,11 @@
 # LMCS-261: Introduction to Computer Programming
+# CLASS NAME/LINK TO ALL COURSE MATERIALS ON GITHUB
 
 Welcome, Programmers!
 
 ## Description
 In this course, students learn the fundamentals of computer programing that serve as a foundation for developing software applications and further exploration of programming languages. Instead of focusing on a single language or platform, this course prepares students to understand computer code in general and to understand the role computers can play in solving real-world and creative problems. By recognizing the concepts that are universal in computer programming, students are better prepared to understand any codes they come across, providing them with advanced problem-solving skills that are important when adapting to different languages based on specific situations. The logical thinking and technical skills students learn in this course can be used to develop a wide range of practical applications on the web, and in game, software, and product development. [Based on this course.](https://github.com/LMSC-261/LMSC-261) Because Berklee is an Apple institution, software applications are used with MacOS.
-This is an introductory survey course of Python, Quorum, HTML, JavaScript, and SQL.
+This is an introductory survey course of Python, HTML, JavaScript, and SQL.
 
 ## Weekly Topics
 - hello, world
@@ -37,7 +38,7 @@ Allen B. Downey, 2015
 
 * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-* [Git + GitHub.com + GitHubDesktop](https://github.blog/2019-10-02-get-started-easier-with-github-desktop-2-2/)
+* [Git](https://en.wikipedia.org/wiki/Git)
 
 ## Assignments and Grading
 Description|Grade
@@ -50,73 +51,67 @@ Final Project | 30%
 
 ### ALL DUE DATES ARE IN UNDER THE "ASSIGNMENTS" SECTION IN CANVAS
 
-### Steps to submit via GitHub+Canvas
-  1. Make a subfolder in *your* GitHub repository named after the assignment (i.e. {yourusername}/itp/scratch, etc.)
-  2. Commit all parts of your assignment (i.e. code+documentation) into that subfolder
-  3. Submit the link for that folder into the appropriate Canvas Assignment
+### Steps to submit assignments via GitHub+Canvas
+  1. Make a subfolder in *your* GitHub repository (not the class respository!) named after the assignment (i.e. {yourusername}/{course}/{assignment}, etc.)
+  2. Commit all parts of your assignment (i.e. code+documentation file) into that subfolder
+  3. Submit the link **to that folder** in the appropriate Canvas assignment by the deadline
 
-### Documentation outline
-  - The documentation (**always** in Markdown as a .md file) must have the following:
+### Documentation File outline
+  - The documentation file (**always** in Markdown, saved as a .md file) must have the following:
     - what you did
     - how you did it
     - the problems you faced (ABDYD: always be documenting your debugging!)
     - how you overcame them
     - *what code you used from others/elsewhere*
       - where to find that code (specific links!!!)
-      - other folks' GitHub public repositories and [Stack OverFlow](https://stackoverflow.com/) are the best places to go for help most of the time
+      - other folks' GitHub public repositories, [Stack OverFlow](https://stackoverflow.com/), language forums are the best places to go for help most of the time
       - *do not* submit paywalled links
       - *if* you submit YouTube links (which is discouraged), they must have TIME STAMPS
     - Correctly document all your debugging, especially if you code ultimately does not run as intended. I will take points off for code that does not run correctly, but will still give partial credit if it is well-documented.
-    - For the purposes of this class, your documentation also helps you prepare to talk about your code in class with your colleagues.
-- In general (unless I specify otherwise), it is permissible to use chat-GPT under the following circumstances:
-      - You download the interaction and upload it to your GitHub repository named after the assignment.
-      - You write out *in your own words* your understanding of what you learned from using chat-GPT in your Documentation File.
-      
+    - For the purposes of this class, your documentation file also helps you prepare to talk about your code in class with your colleagues.
+    - In general (unless I specify otherwise), it is permissible to use chat-GPT or other large-language models under the following circumstances:
+      - You document the ENTIRE INTERACTION with screenshots and include images of those screen shots with your documentation.
+      - You write out *in your own words* your **SPECIFIC** understanding of what you learned from using chat-GPT in your documentation file.
+
 ## Instructor Info
 ### <u>Rachel Devorah Wood Rome, Ph.D.</u>
 - pronouns & honorific: she/her/hers & dr.or prof.
 - Email: [rrome@berklee.edu](rrome@berklee.edu)
 - Phone: 336.355.1993
 - Office Hours:
-	- Tuesdays 1pm-3pm EST.
-	- Meetings will *always* take place in person at 1126 Boylston Room 208.
+	- Tuesdays 11am-1pm EST.
+	- Meetings will *always* take place in person at 1126 Boylston Room 208 (never zoom).
 	- Walk-ins welcome, but preference is given to those who make [appointments here.](https://calendar.app.google/ER3N9CgnNFRqi8qE6)
 	- If you are not available during my office hour, you are welcome to use Berklee Google Calendar (be signed into your own account and search for "r.d.w.rome") to look at my whole calendar and make an appointment that way. It is up-to-date; no need to email me. Just drop the appointment in my calendar.
 
-## Tutor Info
-### <u>Yorgos Tryfonas</u>
-- pronouns: he/him 
-- Email: [ytryfonas@berklee.edu](ytryfonas@berklee.edu)
-- Office Hours: [Wednesday 12:15-2:15 by appointment](https://appt.link/meet-with-yorgos-tryfonas-CMTrl50w)
-
 ## Policies
 ### Communication
-- This is an equitable learning environment:
-  - Use inclusive language.
-	- Problem-solve constructively with respectful language.
-	- Be patient with yourselves and others (especially when mistakes are made).
-  - Accept constructive criticism gracefully.
-	- Never posture/pose/attitudinize.
+- This is an equitable learning environment.
+	- Use inclusive language.
+	- Problem-solve constructively with respectful language;
+	- Accept constructive criticism gracefully.
+	- Be patient with yourselves and others (especially when mistakes are made);
+	- Never posture/pose/attitudinize;
 	- Always speak up and admit when you do not understand something.
-  - Always try keep the needs of *whole* classroom community in mind.
+	- Always try keep the needs of whole classroom community in mind.
 - When you email me, please let me know what class/section you're in.
 - The best way to communicate with me outside of class is *always* to make an appointment with me in my office hour.
-- If you'd like constructive criticism on music beyond what happens in class, I'm happy to give that in my office hour in real-time. I won't give feedback on recordings via email.
+- If you'd like constructive criticism on music, I'm happy to give that in my office hour in real-time. I won't give feedback on recordings via email.
 - I don't answer emails that can be answered with a one-step Google search (i.e. “How do I change the timezone on my Google Calendar?”).
-- I don't necessarily answer emails outside of working hours (M-F, 9-5)
 - I don't answer emails when the answer can be found in the syllabus (here).
 - In an emergency, please call me (really).
 
 ### Grading
-- Assignment extensions are granted more than 12 hours in advance, and will not be granted for the midterm or final.
+- Two assignment extensions may be granted more than 12 hours in advance, but will not necessarily be granted for large projects.
+- Assignment extensions are not implicit with absences: if you are missing class the date something is due, you must explicitly ask for an assignment extension more than 12 hours in advance.
 - You will be held to the Berklee Policy on Honesty in Academic Work (see Student Handbook).
-- Late assignments are not accepted.
+- Late assignments (without granted extensions) are not accepted.
 - If you have a question or comment about a grade, you must come ask it *in person* at my office hour.
 
 ### Attendance
-- The **(two)** lowest attendance grades will be dropped.
+- The **(two)** lowest attendance grades will be dropped at the end of the semester.
 - Remote attendance is not permitted.
-- You must attend class with the computer you're using for class projects (no phones, no tablets, no borrowed laptops). If you do not, you'll receive a partial attendance grade for the week.
+- You must attend class with the computer you're using for class projects (no phones, no tablets, no borrowed laptops). If you do not, you'll receive a partial (50 %) attendance grade for the week.
 - If you are more than 5 minutes late for class or leave more than 5 minutes early, you'll receive a partial attendance grade for the week.
 - If you miss more than 30 minutes of class, you'll be marked absent.
 - If you are disruptive in the class (talking, sleeping, using your laptop or phone beyond classwork) you'll receive one written warning and then receive a partial attendance grade if/when the disruptive behavior continues.

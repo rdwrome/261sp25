@@ -150,14 +150,23 @@ printLeastFavoriteInstrument();
 
 # Continuation from last class
 ```
-// draw eye
+// one
+let osc;
+
 function setup() {
   createCanvas(100, 100);
   noStroke();
+  
+  osc = new p5.Oscillator('sine');
+  osc.freq(440); // Fixed frequency for the eye
+  osc.amp(0.2);
+  osc.start();
 }
 
 function draw() {
   background(204);
+
+  // Eye Drawing
   fill(255);
   ellipse(50, 50, 60, 60);
   fill(0);
@@ -166,10 +175,25 @@ function draw() {
   ellipse(66, 45, 6, 6);
 }
 
-// two eyes
+// two
+let osc1, osc2;
+
 function setup() {
   createCanvas(100, 100);
   noStroke();
+
+  // Two oscillators for the two eyes
+  osc1 = new p5.Oscillator('sine');
+  osc2 = new p5.Oscillator('triangle');
+
+  osc1.freq(440); // Right eye
+  osc2.freq(550); // Left eye
+
+  osc1.amp(0.2);
+  osc2.amp(0.2);
+
+  osc1.start();
+  osc2.start();
 }
 
 function draw() {
@@ -192,40 +216,67 @@ function draw() {
   ellipse(36, 45, 6, 6);
 }
 
+// multiple
+let osc;
+let eyes = [
+  { x: 65, y: 44 },
+  { x: 20, y: 50 },
+  { x: 65, y: 74 },
+  { x: 20, y: 80 },
+  { x: 65, y: 104 },
+  { x: 20, y: 110 }
+];
 
-//eyes
 function setup() {
   createCanvas(100, 100);
   noStroke();
+
+  osc = new p5.Oscillator('square');
+  osc.amp(0.2);
+  osc.start();
 }
 
-function eye(x, y) {
+function eye(x, y, freq) {
   fill(255);
   ellipse(x, y, 60, 60);
   fill(0);
   ellipse(x + 10, y, 30, 30);
   fill(255);
   ellipse(x + 16, y - 5, 6, 6);
+
+  osc.freq(freq);
 }
 
 function draw() {
   background(204);
-  eye(65, 44);
-  eye(20, 50);
-  eye(65, 74);
-  eye(20, 80);
-  eye(65, 104);
-  eye(20, 110);
+
+  for (let i = 0; i < eyes.length; i++) {
+    let freq = map(eyes[i].y, 0, height, 200, 1000); // Map position to frequency
+    eye(eyes[i].x, eyes[i].y, freq);
+  }
 }
 
-// draw eyes
+//mousey
+let osc;
+
 function setup() {
   createCanvas(400, 400);
   noStroke();
+
+  osc = new p5.Oscillator('sawtooth');
+  osc.start();
+  osc.amp(0.2);
 }
 
 function draw() {
   background(204);
+
+  let freq = map(mouseX, 0, width, 200, 800); // Horizontal position controls frequency
+  let amp = map(mouseY, 0, height, 0.1, 0.5); // Vertical position controls volume
+
+  osc.freq(freq);
+  osc.amp(amp);
+
   eye(mouseX, mouseY);
 }
 

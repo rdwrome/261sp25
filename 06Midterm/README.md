@@ -70,13 +70,19 @@ function drawObject(x, y, s) {
   push();
   translate(x, y);
   scale(s);
-  fill(0); // Fill in with black color
-  rect(40, 10, 60, 10); // Draw rectangles
+  fill(0);
+  rect(40, 10, 60, 10);
   rect(40, 10, 5, 50);
   rect(100, 10, 5, 50);
-  ellipse(30, 60, 30, 20); // Draw ellipses
+  ellipse(30, 60, 30, 20);
   ellipse(90, 60, 30, 20);
   pop();
+
+  // Audio feedback for debugging
+  if (x === 0 && y === 0) {
+    let synth = new p5.Synth();
+    synth.play('E4', 0.5, 0, 0.5);
+  }
 }
 
 function draw() {
@@ -113,6 +119,23 @@ When we have a 20-by-20 grid with a canvas size 400-by-400 pixels, the tiles usi
 ![](./img/20.png)
 
 Hint: Use nested for-loops to tile your visual objects. The first loop goes through the x-axis of your canvas. The second loop goes through the y-axis of your canvas. You can multiply the cell width with the current x position in the nested for-loop to position your object in the x-axis. For the y-axis, this will be the cell height multiplied by the current y position.
+```
+function draw() {
+  let gridSize = 5;
+  let cellSize = width / gridSize;
+
+  for (let i = 0; i < gridSize; i++) {
+    for (let j = 0; j < gridSize; j++) {
+      drawObject(i * cellSize, j * cellSize, 1);
+      if (frameCount === 1) {
+        let freq = map(i + j, 0, gridSize * 2, 200, 1000);
+        let synth = new p5.Synth();
+        synth.play(freq, 0.5, 0, 0.1);
+      }
+    }
+  }
+}
+```
 
 #### Sketch Requirements
 - Your `P5.js` sketch

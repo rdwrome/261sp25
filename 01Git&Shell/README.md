@@ -75,13 +75,15 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 	- `nano` is a text editor within Command-line Interface (you'll see how great it is relative to VSC in a minute)
 
 ## [Version Control Systems Overview](https://www.geeksforgeeks.org/version-control-systems/)
+- [Git](https://en.wikipedia.org/wiki/Git) out
 
 ### Version Control System Step-up
 - [Install Visual Studio Code](https://code.visualstudio.com/download), our text editor for this class
 - Set up a GitHub.com account with a simple username you can use professionally
 - Download and install [GitHub Desktop](https://desktop.github.com/)
-- Sign in to GitHub Desktop using your GitHub.com username
-- In GitHub Desktop, go to File > Clone Repository and clone the class repository (https://github.com/rdwrome/261???)
+- OR [USE GITHUB THROUGH THE COMMAND LINE](https://cli.github.com/manual/)
+- Sign in to GitHub using your GitHub.com username
+- If in GitHub Desktop, go to File > Clone Repository and clone the class repository (https://github.com/rdwrome/261sp25)
 - Setup GitHub/save the local file path (where the files are on your computer) somewhere you can easily find the files (i.e. Documents NOT iCloud!)
 - Go to File > New repository
 - Create a new repository called "itp"
@@ -91,7 +93,7 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - When that has gone through go to Repository > Open in Visual Studio Code (VSC)
 - The README.md file of the repository you created for this class will open in VSC
 
-## CODE ALONG TO MAKE AN SUBFOLDER FOR SCRATCH
+## CODE ALONG TO MAKE AN SUBFOLDER FOR HAIKU
 
 ## [Markdown 101](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

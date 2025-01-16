@@ -6,4 +6,4 @@
     - Tell me two (2) things in the reading that were new information to you
     - Tell me two (2) things in the reading that you already knew 
     - Be prepared to discuss the entire reading with your class 
-    - do NOT use chat-GPT!
+    - do NOT use chat-GPT or any other large language model!
