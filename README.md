@@ -1,5 +1,4 @@
 # LMCS-261: Introduction to Computer Programming
-# CLASS NAME/LINK TO ALL COURSE MATERIALS ON GITHUB
 
 Welcome, Programmers!
 
