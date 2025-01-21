@@ -5,7 +5,7 @@
 
 3. Use the README.md file in the same "Haiku" subfolder to document your process following the DOCUMENTATION OUTLINE in the syllabus.
 
-4. Save all changes and push them using GitHubDesktop up to GitHub.com. Take the link to the "Haiku" subfolder in your itp repo and put it in the Scratch Assignment in Canvas.
+4. Save all changes and push them using GitHubDesktop up to GitHub.com. Take the link to the "Haiku" subfolder in your itp repo and put it in the 'Haiku' Assignment in Canvas.
 
 ## Grading Rubric
 Description|Grade
