@@ -26,7 +26,7 @@
 - e.g., I can use music metaphors teaching this programming class because this is a music school
 
 ## Representing Data in Computers
-![](img/emoji.png)
+![image of binary, image of hexadecimal, image of emoji](img/emoji.png)
 - Layer upon layer of abstraction
 
 ## Algorithmic Thinking & Algorithms
@@ -35,7 +35,7 @@
 - Algorithms: chains of instructions for simple operations that come together to accomplish a complex task
 	- The user of the algorithm doesn't think about the chains of instructions, only thinks about input and output
 
-![](img/algorithm.png)
+![image of black box with an arrow in labelled 'input' and an arrow out labelled 'output'](img/algorithm.png)
 
 ## 20 Questions in Boolean Logic
 - Let's guess where someone in this room is from (their "hometown") with only 'Yes' or 'No' questions
@@ -53,7 +53,7 @@
 - How are you doing on storage?
 
 ## Big Picture
-- Survey of a few languages (SQL, Quorum, JavaScript, HTML/CSS, Python)
+- Survey of a few languages (SQL, JavaScript, HTML/CSS, Python)
 - Teaching you to problem-solve patiently, precisely, and creatively to inspire LIFE-LONG LEARNING
 - We'll use [participatory live coding](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008090) / 'chalk and talk' / code along
 - *ALL* the materials of the course are provided for you all together, we'll go through them all together step-by-step
