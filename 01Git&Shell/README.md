@@ -1,4 +1,4 @@
-# Scratch
+# Git & Shell
 
 ## Vocabulary Review ++
 - Execution: CPU does what the program tells it to do
@@ -8,7 +8,7 @@
 - Loops: cycles/reiterations of execution
 - Syntax: expectations information organization
 - Conditions: Check for "Truthiness" with Boolean Logic
-![](img/conditions.png)
+![illustration of control flow in i-then-else statements](img/conditions.png)
 
 ## Before you Code
 
@@ -16,7 +16,7 @@
 - Break down the way to solve to problem into the smallest tasks possible, but in the language you speak to yourself
 - Think like a computer, be literal! Algorithmic thinking!
 
-### Simon Says Pseudocode Share and Pair <--! or pbj video https://www.youtube.com/watch?v=okkIyWhN0iQ -->
+### Simon Says Pseudocode Share and Pair or [PBJ] (https://www.youtube.com/watch?v=okkIyWhN0iQ)
 - Imagine we are each a dancing machine.
 - Give us precise instructions for a simple dance using at least one function, at least one condition, and at least one loop.
 - I'll do it if you don't want but I'll be tough!
@@ -35,6 +35,7 @@
 maybe add https://swcarpentry.github.io/shell-novice/ -->
 
 ## MAKE SURE your Macintosh HD is visible in your "Finder" Preferences
+- Finder>Preferences>General>Hard Disks
 - Make sure Documents is in username folder (not iCloud)
 
 ## Command Line
@@ -94,6 +95,8 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - The README.md file of the repository you created for this class will open in VSC
 
 ## CODE ALONG TO MAKE AN SUBFOLDER FOR HAIKU
+- `mkdir` in your itp repo
+- put something there!
 
 ## [Markdown 101](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
