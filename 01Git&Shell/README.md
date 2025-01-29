@@ -31,38 +31,6 @@
 
 ## Cloud-based Storage and Version Control systems you've used before
 
-## Vocabulary
-- Execution: CPU does what the program tells it to do
-- Functions: actions/verbs
-- Variables/Bindings: meaning grasps and holds values
-- List/array: collection of values
-- Loops: cycles/reiterations of execution
-- Syntax: expectations information organization
-- Conditions: Check for "Truthiness" with Boolean Logic
-![illustration of control flow in i-then-else statements](img/conditions.png)
-
-## Before you Code
-
-### Pseudocode
-- Break down the way to solve to problem into the smallest tasks possible, but in the language you speak to yourself
-- Think like a computer!
-
-### Simon Says Pseudocode Share and Pair and/or [PBJ](https://www.youtube.com/watch?v=okkIyWhN0iQ)
-- Imagine we are each a dancing machine.
-- Give us precise instructions for a simple dance using at least one function, at least one condition, and at least one loop.
-- I'll do it if you don't want but I'll be tough!
-
-## While you Code
-
-### Always be Documenting 
-- Including your Pseudocode
-- Documentation outline in the syllabus
-	- Debugging 
-	- Code Reuse!
-
-<!-- maybe add compiler information from here https://prismia.chat/shared/computing-basics
-maybe add https://swcarpentry.github.io/shell-novice/ -->
-
 ## Command Line
 
 **Command Line Interfaces (CLI)**
@@ -92,9 +60,9 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 	- `-o` tag to create an object file
 
 	- `say` 
-
-
-
+	
+# CODE ALONG
+- `say "hello, world" -o hello.aiff`
 
 ## [Version Control Systems](https://www.geeksforgeeks.org/version-control-systems/)
 - Your HD is your local repository
@@ -132,6 +100,21 @@ maybe add https://swcarpentry.github.io/shell-novice/ -->
 - recommended:
 	- [Images ALWAYS WITH ALT TEXT](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#images)
 
-## CODE ALONG TO MAKE AN SUBFOLDER FOR HAIKU
-- `mkdir` in your itp repo
-- put something there!
+## CODE ALONG TO MAKE AN SUBFOLDER FOR HOMEWORK
+- Open TextMate
+- Go to File>New
+- Go to File>Save As
+- Click on 'New Folder'
+- Write the name of the homework assignment
+- Save the name of the File as 'README.md'
+- Click 'save'
+- Open GitHub Desktop
+- Add a summary (commit message)
+- Click 'commit to main'
+- Click 'push to origin'
+- Go to Repository>View on GitHub
+- click on the new folder you just made
+- Copy the link in your browser
+- Paste that link in canvas!
+
+

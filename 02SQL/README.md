@@ -1,5 +1,68 @@
 # haiku
 
+## Vocabulary
+- Execution: CPU does what the program tells it to do
+- Functions: actions/verbs
+- Variables/Bindings: meaning grasps and holds values
+- List/array: collection of values
+- Loops: cycles/reiterations of execution
+- Syntax: expectations information organization
+- Conditions: Check for "Truthiness" with Boolean Logic
+![illustration of control flow in i-then-else statements](img/conditions.png)
+
+## Pseudocode
+- Break down the way to solve to problem into the smallest tasks possible, but in the language you speak to yourself
+- Think like a computer!
+- [PBJ](https://www.youtube.com/watch?v=okkIyWhN0iQ)
+
+### Simon Says Pseudocode Share and Pair 
+- Imagine we are each a dancing machine.
+- Give us precise instructions for a simple dance using at least one function, at least one condition, and at least one loop.
+- I'll do it if you don't want but I'll be tough!
+
+## Debugging
+- Frustrating
+- Most of what programming is
+- ALWAYS BE DOCUMENTING YOUR DEBUGGING!!! (ABDYD!!!)
+- Think of it as detective work
+	- You're given evidence and have to infer what happened
+- Or think of it as a science experiment
+	- Analyze the error message + code together
+	- Draft a theory as to why you got the bug (with notes!)
+		- record of what you've tried to fix it
+	- Make a test of your theory
+	- Monitor your code with printing functions and breakpoints
+
+### Bugs in the Wild
+
+**Syntax**
+
+- Your code broke a structure/expectation rule
+- Classic problems:
+	- keyword is a variable name
+	- colon after for, while, if, and def statements
+	- matching quotation marks in Strings
+	- matching brackets
+	- = instead of ==
+	- indentation
+	- ASCII issues
+
+**Runtime**
+
+- Something broke while it was running/just didn't run at all
+- Classic problems:
+	- Control Flow issues
+	- Recursion
+
+**Semantic**
+
+- Something is not right and your computer doesn't know it but you do
+- Hardest to figure out!
+- Go back to Pseudocoding
+- Break everything down into the smallest unit you can
+
+## MarkDown and refresher of Documentation requirements
+
 # SQL
 
 **Database**
@@ -90,47 +153,3 @@
     ![](img/injection.png)
 
 **[DB Browser for SQLite](https://sqlitebrowser.org/dl/)**
-
-## Debugging in general
-
-- Frustrating
-- Most of what programming is
-- ALWAYS BE DOCUMENTING YOUR DEBUGGING!!! (ABDYD!!!)
-- Think of it as detective work
-	- You're given evidence  and have to infer what happened
-- Or think of it as a science experiment
-	- Analyze the error message + code together
-	- Draft a theory as to why you got the bug (with notes!)
-		- record of what you've tried to fix it
-	- Make a test of your theory
-	- Monitor your code with printing functions and breakpoints
-
-## Bugs in the Wild
-
-**Syntax**
-
-- Your code broke a structure/expectation rule
-- Classic problems:
-	- keyword is a variable name
-	- colon after for, while, if, and def statements
-	- matching quotation marks in Strings
-	- matching brackets
-	- = instead of ==
-	- indentation
-	- ASCII issues
-
-**Runtime**
-
-- Something broke while it was running/just didn't run at all
-- Classic problems:
-	- Control Flow issues
-	- Recursion
-
-**Semantic**
-
-- Something is not right and your computer doesn't know it but you do
-- Hardest to figure out!
-- Go back to Pseudocoding
-- Break everything down into the smallest unit you can
-
-## MarkDown and refresher of Documentation requirements

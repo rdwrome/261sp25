@@ -5,7 +5,7 @@
 - Makes websites dynamic
 - Browser console>Developer Tools
 - install [node.js](https://nodejs.org/en/download)
-- we're going to write our .js files in vsc, execute them in node.js
+- we're going to write our .js files in TextMate, execute them in node.js
 - Helpful:
 ```javascript
 console.log()
