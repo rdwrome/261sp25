@@ -1,15 +1,16 @@
 # Hello, World
 
 ## What is Computer Programming?
-- We're telling the computer what to do step by step
-- Just like a "program" tells you the order in a concert
+- We're telling the computer what to do step-by-step
+- Just like a "program" tells the audience the order of pieces/movements in a concert
 
 ## Computers are dumb; you are smart
 - But! They can remember a lot and they're patient
 
 ## [Binary Numbers](https://en.wikipedia.org/wiki/Binary_number)
-- Base 2 Counting
 - We humans are used to Base 10 counting (because of our fingers and toes? maybe. But don't forget 0!)
+- Base 2 Counting
+- "Ship name": binary digits = bits
 
 ## Boolean Logic
 - Yes or No
@@ -23,7 +24,7 @@
 
 ## Abstraction
 - Lower-level implementation details are hidden below higher-level ideas, can be taken for granted in the environment
-- e.g., I can use music metaphors teaching this programming class because this is a music school
+- e.g., I'm music metaphors teaching this programming class because this is a music school
 
 ## Representing Data in Computers
 ![image of binary, image of hexadecimal, image of emoji](img/emoji.png)
@@ -34,7 +35,6 @@
 	- Cooking with recipes
 - Algorithms: chains of instructions for simple operations that come together to accomplish a complex task
 	- The user of the algorithm doesn't think about the chains of instructions, only thinks about input and output
-
 ![image of black box with an arrow in labelled 'input' and an arrow out labelled 'output'](img/algorithm.png)
 
 ## 20 Questions in Boolean Logic
@@ -70,34 +70,5 @@
   - Minecraft
 
 ## Syllabus
-
-## COMPUTERS: WHAT ARE THEY
-- CPU (Central Processing Unit): performs actions
-- RAM (Random Access Memory): storage for 0s and 1s (bytes) you're using *right now*
-- Hard Drive: persistent storage of 0s and 1s (bytes)
-- Motherboard: where everything above comes together
-
-### Vocabulary
-- Execution: CPU does what the program tells it to do
-- Functions: actions/verbs
-- Variables/Bindings: meaning grasps and holds values
-- List/array: collection of values
-- Loops: cycles/reiterations of execution
-- Syntax: expectations information organization
-
-### Processing efficiency of different languages
-- in C, lists are stored consecutively in RAM
-  - band members all live in consecutive 160 dorm rooms
-- in Python, lists are stored at an address in RAM
-  - rhythm section live together in Allston, horn section live together in the Fenway
-- the less a language forces the CPU to dig around in RAM, the more 'machine-readable' it is
-- the more a language forces the CPY to dig around in RAM, the more 'human-readable' it is
-
-**Why and when does efficiency matter?**
-**What is the RAM of your machine?**
-
-### Stack vs. Heap
-- Stack: part of the RAM that remembers variable and function definitions
-- Heap: part of the RAM that remembers data types like lists at an address
 
 ## HOMEWORK FOR NEXT CLASS! Ford Reading!

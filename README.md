@@ -33,11 +33,11 @@ Allen B. Downey, 2015
 
 ### Everyday Tools
 
-* [Visual Studio Code](https://code.visualstudio.com/Download)
+* [TextMate](https://macromates.com/)
 
-* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
-* [Git](https://en.wikipedia.org/wiki/Git)
+* [Git](https://en.wikipedia.org/wiki/Git) with [GitHub](https://github.com/)
 
 ## Assignments and Grading
 Description|Grade
