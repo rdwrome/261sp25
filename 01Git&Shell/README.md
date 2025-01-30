@@ -21,7 +21,6 @@
 - the more a language forces the CPU to dig around in RAM, the more 'human-readable' it is
 
 **Why and when does efficiency matter?**
-**What is the RAM of your machine?**
 
 # CODE ALONG
 - **What is the RAM of your machine?**
