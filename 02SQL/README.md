@@ -102,7 +102,7 @@
 
 **Statements CODE ALONG**
 
-          - sqlite3 nycto261.db //creates database
+          - sqlite3 nycto.db //creates database
           - CREATE TABLE 'nycto' ('id' integer, 'name' text, 'dark' text);
           - .tables //names table
           - .schema // shows structure of table named

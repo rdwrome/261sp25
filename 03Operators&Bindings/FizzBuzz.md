@@ -10,13 +10,13 @@ if an integer in the counter is divisible by 5, print "Buzz";
 if an integer in the counter is divisible by both 3 and 5, print "FizzBuzz".
 
 The first 5 integers in the console should look like this:
-<pre>
+```javascript
 					 1
 					 2
 					 Fizz
 					 4
 					 Buzz
-</pre>
+```
 
 2. SUBMIT (as a link in Canvas to an assignment subfolder in *your* GitHub repository):
 	- Your .js file

@@ -161,7 +161,7 @@ const bags = 3;
 const bananas = 12;
 console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} groups to fit into ${bags} bags.`);
 ```
-## Solo Exercise:
+## Exercise:
 - Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:

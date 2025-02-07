@@ -1,6 +1,53 @@
 # Control Flow
 - Order in which statements are evaluated
 
+
+//// Hope to get here...
+
+// Arrays
+const fruits = ["apple", "banana", "cherry"];
+console.log(fruits[0]); // Access first element
+fruits.push("date"); // Add new element to array
+console.log(fruits);
+
+// Loop through an array using forEach
+fruits.forEach(fruit => console.log(fruit));
+
+// Loops
+// For loop example
+for (let i = 0; i < 5; i++) {
+    console.log(`Iteration ${i}`);
+}
+
+// Functions
+// Defining a function to greet a user
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+console.log(greet("Rachel"));
+
+// Arrow function example (shorter syntax for functions)
+const square = (x) => x * x;
+console.log(square(4));
+
+// Objects
+// Objects store key-value pairs
+const person = {
+    name: "Rachel",
+    age: 30,
+    isStudent: false
+};
+console.log(person.name); // Access object properties
+person.age = 31; // Modify object property
+console.log(person.age);
+
+// Event Listener (Browser Only)
+// Uncomment if running in a browser
+// document.getElementById("myButton").addEventListener("click", function() {
+//     alert("Button clicked!");
+// });
+ 
+
 ## Conditional Statements
 - Control flow is determined by conditional (decision-making) statements
 - Conditional statements use Boolean Logic (testing for truthiness!)

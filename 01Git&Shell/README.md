@@ -52,7 +52,7 @@
 
 	- `mkdir` Makes a new directory (`mkdir NewDirectory` makes a new folder called `NewDirectory`)
 
-	- `man` opens the manual for Terminal commands ("man man" will open up the manual for the manual!)
+	- `man man` opens the manual for Terminal commands ("man man" will open up the manual for the manual!)
 
 	- `nano` is a text editor within Command-line Interface (you'll see how great it is relative to VSC in a minute)
 	
@@ -85,14 +85,14 @@
 - Open GitHub Desktop
 - Go to File > New repository
 - Create a new repository called "itp"
-- Check the box that says "Initialize this repository with a README" and check again that your local file path goes somewhere you can easily find; let the repository stay public (for now)
+- Check the box that says "Initialize this repository with a README" and check again that your local file path goes somewhere you can easily find
 - Your new repository will appear in the far left bar of the GitHub Desktop window.
-- Click on the repository and then select "Publish this repository to GitHub"
+- Click on the repository, select that the repository will stay public (for now), and then select "Publish this repository to GitHub"
 - When that has gone through go to Repository > Open with TextMate
-- The README.md file of the repository you created for this class will open with TextMate
+- The README.md file of the repository you created for this class will open with TextMate!
 
 ## [Markdown 101](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- required of all Markdown files in this class:
+- required of all Markdown documentation files in this class:
 	- [Headers](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#headers)
 	- [Links](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#links)
 	- [Code highlighting](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#code)
@@ -103,9 +103,10 @@
 - Open TextMate
 - Go to File>New
 - Go to File>Save As
-- Click on 'New Folder'
+- Navigate to your itp folder
+- Click on 'New Folder' (if you can't see 'New Folder' click on the down arrow next to where you selected your itp folder)
 - Write the name of the homework assignment
-- Save the name of the File as 'README.md'
+- Save the name of the file as 'README.md'
 - Click 'save'
 - Open GitHub Desktop
 - Add a summary (commit message)
