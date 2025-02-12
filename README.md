@@ -43,7 +43,7 @@ Allen B. Downey, 2015
 Description|Grade
 ---|---:|
 Attendance and Participation| 30%
-Homework (6 assignments)| 30%
+Homework | 30%
 Midterm | 10%
 Final Project | 30%
 **Total**|**100%**
