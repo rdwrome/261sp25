@@ -2,12 +2,12 @@
 
 ## COMPUTERS: WHAT ARE THEY PHYSICALLY
 - CPU (Central Processing Unit): performs actions
-- RAM (Random Access Memory): storage for 0s and 1s (bytes) you're using *right now*
-- Hard Drive: persistent storage of 0s and 1s (bytes)
+- RAM (Random Access Memory): storage for 0s and 1s (bits) you're using *right now*
+- Hard Drive: persistent storage of bits
 - Motherboard: where everything above comes together
 
 ### RAM Stack vs. Heap
-- Stack: part of the RAM that remembers variable and function definitions
+- Stack: part of the RAM that remembers definitions for the environment
 - Heap: part of the RAM that remembers data types like lists at an address
 
 ## Tower of Babel (Review of Reading) Discussion

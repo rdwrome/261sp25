@@ -1,99 +1,67 @@
 # Control Flow
-- Order in which statements are evaluated
+Control flow determines the order in which statements in a program are executed.
+JavaScript executes code line-by-line from top to bottom unless control structures (like conditionals or loops) alter that flow.
 
-
-//// Hope to get here...
-
-// Arrays
-const fruits = ["apple", "banana", "cherry"];
-console.log(fruits[0]); // Access first element
-fruits.push("date"); // Add new element to array
-console.log(fruits);
-
-// Loop through an array using forEach
-fruits.forEach(fruit => console.log(fruit));
-
-// Loops
-// For loop example
-for (let i = 0; i < 5; i++) {
-    console.log(`Iteration ${i}`);
-}
-
-// Functions
-// Defining a function to greet a user
-function greet(name) {
-    return `Hello, ${name}!`;
-}
-console.log(greet("Rachel"));
-
-// Arrow function example (shorter syntax for functions)
-const square = (x) => x * x;
-console.log(square(4));
-
-// Objects
-// Objects store key-value pairs
-const person = {
-    name: "Rachel",
-    age: 30,
-    isStudent: false
-};
-console.log(person.name); // Access object properties
-person.age = 31; // Modify object property
-console.log(person.age);
-
-// Event Listener (Browser Only)
-// Uncomment if running in a browser
-// document.getElementById("myButton").addEventListener("click", function() {
-//     alert("Button clicked!");
-// });
- 
-
-## Conditional Statements
-- Control flow is determined by conditional (decision-making) statements
-- Conditional statements use Boolean Logic (testing for truthiness!)
-- If, else and their permutations are all **iterative** conditional statements, meaning they're not self-referential (more on this later!)
-
-## Code Along
-```javascript
-// if
+// *if*
+// Executes a block of code only if a specified condition is true.
 let midiNote = 64;
-if (midiNote < 0 || midiNote > 127) {
-  console.log("The note value entered is an invalid MIDI note.");
-}
 if (midiNote >= 0 && midiNote <= 127) {
-  console.log("The note value entered is a valid MIDI note.");
-  console.log("MIDI note value is", midiNote);
+  console.log("Valid MIDI note:", midiNote);
 }
-// if-else
-let midiNote = 64;
-if (midiNote <= 0 || midiNote >= 127) {
-  console.log("The note value entered is Invalid.");
+
+// *if-else*
+//  If the condition is false, the else block runs instead.
+let midiNote = 150;
+if (midiNote >= 0 && midiNote <= 127) {
+  console.log("Valid MIDI note.");
 } else {
-  console.log("The note value entered is valid.");
+  console.log("Invalid MIDI note.");
 }
-// else-if
+
+// *else-if*
+// Use else if to check for multiple conditions.
 let midiNote = 64;
 if (midiNote < 64) {
   console.log("MIDI note is smaller than 64.");
 } else if (midiNote > 64) {
   console.log("MIDI note is greater than 64.");
 } else {
-  console.log("MIDI note is equal to 64.");
+  console.log("MIDI note is exactly 64.");
 }
-// nested if-else
-let midiNote = parseInt(prompt("What's your favorite midiNote? "));
+
+// *for loops*
+// A loop that runs while a condition is true.
+let count = 0;
+while (count < 3) {
+  console.log("Happy Thursday");
+  count++;
+}
+
+// *nested loops*
+for (let i = 0; i < 10; i++) {
+  let row = '';
+  for (let j = 0; j < 10; j++) {
+    if (j >= i) {
+      row += j.toString();
+    }
+  }
+  console.log(row);
+}
+
+// *Nested if-else*
+// Conditions can be nested for more complex decision-making.
+let midiNote = parseInt(prompt("Enter a MIDI note number:"));
 if (midiNote < 64) {
   console.log("MIDI note is smaller than 64.");
   if (midiNote === 48) {
-    console.log(`The note name for ${midiNote} is C2.`);
+    console.log("Note name is C2.");
   } else if (midiNote === 40) {
-    console.log(`The note name for ${midiNote} is E1.`);
+    console.log("Note name is E1.");
   }
 } else {
-  console.log("MIDI note is greater than or equal to 64.");
+  console.log("MIDI note is 64 or higher.");
 }
-```
-## Group 
+
 - Create a file named `BOSseasons.js`.
 - Write a program that prints out the seasons in Boston.
 - Ask the user to input a number between 1 ~ 12.
@@ -120,6 +88,7 @@ while (count < 3) {
 if (count >= 3) {
   console.log("Happy Friday");
 }
+
 // for loop with range
 for (let i = 0; i < 128; i++) {
   console.log(`The next MIDI note value is ${i}`);

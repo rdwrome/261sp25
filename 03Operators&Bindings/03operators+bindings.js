@@ -82,15 +82,13 @@ console.log(parseFloat("56.83"), typeof parseFloat("56.83")); // Convert string 
 
 // *Floating point precision handling*
 const z = 3.141592653589793;
-console.log(z.toFixed(50)); // Ensures precision with 50 decimal places
+console.log(z.toFixed(5)); // Ensures precision with 50 decimal places
 
-// *Template literals for mathematical expressions*
-const bags = 3;
-const bananas = 12;
-console.log(`${bananas} bananas were split into ${Math.floor(bananas / bags)} groups to fit into ${bags} bags.`);
+// Arrays
+const fruits = ["apple", "banana", "cherry"];
+console.log(fruits[0]); // Access first element
+fruits.push("date"); // Add new element to array
+console.log(fruits);
 
-// *Exercise: Convert 99°F to Celsius*
-const f = 99;
-const c = (f - 32) * 5 / 9;
-console.log(`${f}°F is equal to ${c.toFixed(2)}°C`);
-
+// Array Transversal
+fruits.forEach(fruit => console.log(fruit));

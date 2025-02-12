@@ -1,9 +1,9 @@
-# haiku
+# Haiku
 
 ## Vocabulary
 - Execution: CPU does what the program tells it to do
 - Functions: actions/verbs
-- Variables/Bindings: meaning grasps and holds values
+- Bindings/Variables: meaning grasps and holds values
 - List/array: collection of values
 - Loops: cycles/reiterations of execution
 - Syntax: expectations information organization
@@ -61,7 +61,7 @@
 - Go back to Pseudocoding
 - Break everything down into the smallest unit you can
 
-## MarkDown and refresher of Documentation requirements
+## MarkDown/Documentation Refresher
 
 # SQL
 
@@ -91,8 +91,8 @@
 
 **SQLite Data Types**
 - Integer: + or - whole number
-- Real: decimal
-- Text: string
+- Real: Floating Point
+- Text: String (sequences of characters, indexed from 0 [indices are an array of addresses])
 - Numeric: boolean, date (YYYY-MM-DD)
 - BLOB: Binary Large OBject, can store any kind of data
 

@@ -27,22 +27,20 @@
 - e.g., I'm music metaphors teaching this programming class because this is a music school
 
 ## Representing Data in Computers
-![image of binary, image of hexadecimal, image of emoji](img/emoji.png)
 - Layer upon layer of abstraction
+![image of binary, image of hexadecimal, image of emoji](img/emoji.png)
 
-## Algorithmic Thinking & Algorithms
-- Thinking: breaking the steps of a long operation down into small, explicit substeps and anticipating contingencies
-	- Cooking with recipes
+## Algorithms
 - Algorithms: chains of instructions for simple operations that come together to accomplish a complex task
 	- The user of the algorithm doesn't think about the chains of instructions, only thinks about input and output
 ![image of black box with an arrow in labelled 'input' and an arrow out labelled 'output'](img/algorithm.png)
+- Thinking: breaking the steps of a long operation down into small, explicit substeps and anticipating contingencies
+	- Cooking with recipes
+-  Efficiency: fewest number of steps to accomplish a complex task
 
 ## 20 Questions in Boolean Logic
 - Let's guess where someone in this room is from (their "hometown") with only 'Yes' or 'No' questions
-- How can we make the game go slower? Faster? More Efficient?
-
-## Algorithmic Efficiency
-- Fewest number of steps to accomplish a complex task
+- How can we make the game go slower? Faster?
 
 ## Introductions
 - Name+Pronoun
