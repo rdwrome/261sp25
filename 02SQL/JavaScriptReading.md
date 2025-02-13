@@ -7,12 +7,11 @@
 
 2. Make *properly formatted* README.md file in a subfolder called "JavaScriptReading" in your itp repository that outlines one thing you knew and one thing you did not know for each chapter of the reading (6 observations total)
 
-3. Save all changes and push them using GitHubDesktop up to GitHub.com. Take the link to the "Haiku" subfolder in your itp repo and put it in the 'Haiku' Assignment in Canvas.
+3. Save all changes and push them using GitHubDesktop up to GitHub.com. Take the link to the "JavaScriptReading" subfolder in your itp repo and put it in the 'JavaScriptReading' Assignment in Canvas.
 
 ## Grading Rubric
 Description|Grade
 ---|---:|
-Documentation file is reflective | 40%
-Documentation file is properly formatted | 30%
-File named properly and in the right place submitted properly | 30%
+6 thoughtful observations | 60%
+File formatted and submitted properly | 40%
 **Total** | **100%**
