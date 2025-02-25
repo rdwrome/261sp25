@@ -10,6 +10,16 @@
 console.log("Hello, world!"); // Prints text to the console
 console.clear(); // Clears the console output
 
+
+// *Some Syntax Rules*
+// - JavaScript allows automatic type conversion
+// - Uses indentation for readability, semicolons are optional
+// - Variables are case-sensitive
+
+// *Expressions vs Statements*
+// - Expression: Produces a value (e.g., `5 + 3`)
+// - Statement: A complete instruction (e.g., `console.log(5 + 3);`)
+
 // *Values and Operators*
 // **Numbers**
 console.log(typeof 10);    // "number - integer"
@@ -54,16 +64,7 @@ console.log(canRide);
 // **NaN and Empty Values**
 console.log(typeof NaN);        // "number" (special case, but means Not-a-Number)
 console.log(typeof null);       // "object" (historical JavaScript quirk)
-console.log(typeof undefined);  // "undefined" (a variable that has not been assigned a value)
-
-// *Some Syntax Rules*
-// - JavaScript allows automatic type conversion
-// - Uses indentation for readability, semicolons are optional
-// - Variables are case-sensitive
-
-// *Expressions vs Statements*
-// - Expression: Produces a value (e.g., `5 + 3`)
-// - Statement: A complete instruction (e.g., `console.log(5 + 3);`)
+console.log(typeof undefined);  // "undefined" (a binding that has not been assigned a value)
 
 // *Bindings (Variables)*
 // - let (modifiable), const (immutable), var (old, avoid using)

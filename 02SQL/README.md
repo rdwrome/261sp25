@@ -8,7 +8,6 @@
 - Loops: cycles/reiterations of execution
 - Syntax: expectations information organization
 - Conditions: Check for "Truthiness" with Boolean Logic
-![illustration of control flow in i-then-else statements](img/conditions.png)
 
 ## Pseudocode
 - Break down the way to solve to problem into the smallest tasks possible, but in the language you speak to yourself
