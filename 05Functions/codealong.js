@@ -1,10 +1,9 @@
-// 🎵 Interactive Sound in p5.js Midterm Prep 🎵
-
+// Interactive Sound in p5.js for Midterm Prep 
 // GO TO https://editor.p5js.org/
-// all code for this tutorial and your midterm must be run in the editor here!
+// all code for this tutorial and your midterm must be run in the editor there!
 // SIGN IN!!! use your githubhub username!
 
-// 🚀 Step 1: Setting Up the Microphone Input 
+// Microphone Input 
 
 let mic;
 
@@ -21,29 +20,7 @@ function draw() {
   ellipse(width / 2, height / 2, circleSize, circleSize);
 }
 
-// Step 2: Add Text to Speech Function
-let mic;
-
-function setup() {
-  createCanvas(400, 400);
-  mic = new p5.AudioIn();
-  mic.start();
-}
-
-function speakMessage(text) {
-  let message = new SpeechSynthesisUtterance(text);
-  window.speechSynthesis.speak(message);
-}
-
-function draw() {
-  background(0);
-
-  let volume = mic.getLevel(); 
-  let circleSize = map(volume, 0, 1, 20, 400); 
-  ellipse(width / 2, height / 2, circleSize, circleSize);
-}
- 
-// 🚀 Step 3: Loading and Playing a Sound File
+// Loading and Playing a Sound File
 
 let myFirstSound;
 
@@ -56,7 +33,7 @@ function setup() {
   myFirstSound.play();
 }
 
-// adding playback rate changes
+// ++ add playback rate changes
 
 function draw(){
   background(0);
@@ -65,4 +42,40 @@ function draw(){
   
   fill(255);
   text('rate: ' + mouseXNormalized.toFixed(2), 20,20);
+}
+
+// pressing keys to play sounds
+
+let myFirstSound;
+
+function preload() {
+  soundFormats('wav', 'mp3');  
+  myFirstSound = loadSound('00_ann.wav', soundLoaded);
+}
+
+function setup() {
+  createCanvas(400, 200);
+  textSize(20);
+  textAlign(CENTER, CENTER);
+  text("Move your cursor to the 'Preview' section\nPress 'P' to play sound", width / 2, height / 2);
+}
+
+function soundLoaded() {
+  console.log("Sound successfully loaded!");
+}
+
+function keyPressed() {
+  console.log("Key pressed:", key);
+  if (key.toLowerCase() === 'p') {
+    playCustomSound();
+  }
+}
+
+function playCustomSound() {
+  if (myFirstSound.isLoaded()) {
+    myFirstSound.play();
+    console.log("Sound played.");
+  } else {
+    console.log("Sound not loaded yet.");
+  }
 }
