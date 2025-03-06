@@ -87,7 +87,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 // ===========================================
-// 📚J  recursive
+// 📚 Recursion
 // ===========================================
 // Solve a computational problem with solutions to smaller instances of the same problem. 
 // Use functions that call themselves. 
@@ -200,5 +200,5 @@ function printLeastFavoriteInstrument() {
   console.log("Your least favorite instrument is: " + instrument);
 }
 // Uncomment to test 
-// printFavoriteInstrument();
-// printLeastFavoriteInstrument();
+printFavoriteInstrument();
+printLeastFavoriteInstrument();

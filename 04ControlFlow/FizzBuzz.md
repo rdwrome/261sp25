@@ -30,5 +30,5 @@ Description|Grade
 ---|---:|
 .js file functions with no errors | 60%
 Documentation file explanatory and formatted correctly | 30%
-Files are named properly and in the right place submitted properly | 30%
+Files are named properly and in the right place submitted properly | 10%
 **Total** | **100%**
