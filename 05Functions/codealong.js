@@ -1,9 +1,9 @@
 // Interactive Sound in p5.js for Midterm Prep 
 // GO TO https://editor.p5js.org/
 // all code for this tutorial and your midterm must be run in the editor there!
-// SIGN IN!!! use your githubhub username!
+// SIGN IN!!! use your github username!
 
-// Microphone Input 
+// microphone input
 
 let mic;
 
@@ -20,7 +20,11 @@ function draw() {
   ellipse(width / 2, height / 2, circleSize, circleSize);
 }
 
-// Loading and Playing a Sound File
+// loading and playing a file (you MUST BE SIGNED IN!)
+// save your sketch name
+// click on the carrot next to sketch.js
+// click on the plus next to sketch files
+// add a SHORT .wav file to your project!
 
 let myFirstSound;
 
