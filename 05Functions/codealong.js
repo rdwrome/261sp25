@@ -1,7 +1,8 @@
 // Interactive Sound in p5.js for Midterm Prep 
-// GO TO https://editor.p5js.org/
+// GO TO https://editor.p5js.org/ in GOOGLE CHROME
 // all code for this tutorial and your midterm must be run in the editor there!
-// SIGN IN!!! use your github username!
+// grab a short .wav file sample easily accessible on your machine
+// SIGN IN TO P5.js!!! use your github username!
 
 // microphone input
 
