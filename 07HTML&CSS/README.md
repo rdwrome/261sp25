@@ -15,9 +15,6 @@
   - Final Project Proposal - due next week before class (see FPP.md in this folder)
   - Band Site Project - due next week during class (see Band.md in this the `08Network` folder)
 
-## Anatomy of a Website
-![](img/anatomyofsite.png)
-
 ## HTML
 - HyperText Markup Language
 - References something else that can be immediately accessed
@@ -28,7 +25,6 @@
 - W3C World Wide Web standard
 - "Platform and language-neutral interface that allows programs and scripts to access and update the content, structure, and style of a document"
 - Core DOM is standard model for all documents, HTML DOM is for HTML documents
-![](img/DOM.png)
 
 ## Servers and Ports
 - HTML documents and other assets have to be hosted on servers
@@ -49,7 +45,6 @@
   - TCP/IP Bundled with Unix in early 70s research computers
     - host-to-host
   - IP addresses mark uniquely identifiable servers
-  ![](img/snail.png)
   - VPN, anyone?
   - **IPv4 v IPv6**, an interlude:
     - IPv4 could only represent about 4 billion values
@@ -61,20 +56,13 @@
   - The server doesn't automatically trust the browser (or vice-versa!)
 
 ### HyperText Transfer Protocol
-![](img/clientproxy.png)
+![image of information flowing between client and proxy](img/clientproxy.png)
   - a client-server protocol
+  - a way for a client (like a web browser) to send requests to a proxy server, which then forwards them to the internet
   - browser (client/recipient) requests FETCHING of assets. (Where have we heard that before?)
   - Complete browser page is constructed from different fetched sub-documents (see Anatomy of a Website again.)
   - This is the foundation of information exchange on the internet.
   - Cache (good for you) & Cookies (good for digital capitalism): stored on client side
-
-### All together now:
-![](img/languages.png)
-  - Cascading Style Sheets make sites pretty
-    - Inline vs External
-  - JavaScript makes sites more interactive, dynamic
-  - TLS is for encryption
-  - UDP is for ultra-low latency
 
 ## Take a look at how it all comes together on your favorite site!
 - Open up favorite site in Chrome
