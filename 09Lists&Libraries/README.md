@@ -209,12 +209,11 @@ for instrument in instruments:
 
 print(instruments)
 ```
-## Exersizes:
-1. Write a program that converts 99 Fahrenheit to Celsius
+## Exersizes
+- Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:
 	- Celsius = (Fahrenheit - 32)  5 / 9
-2. Power.md in this folder
 
 ## Modules
 - Hierarchy: built-ins; packages; writing your own packages
