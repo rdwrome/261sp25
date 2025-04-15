@@ -40,7 +40,8 @@
   - `python --version`
   - `python3 --version`
 - DO YOU NEED TO INSTALL COMMAND LINE TOOLS? YES! PLEASE DO! `xcode-select --install`
-- IF YOU'VE DOWNLOADED PYTHON3 TODAY: open "update shell profile command" in the python3 folder
+- WHERE IS IT?
+	- `which python3`
 - Check your pip!
 	- `pip --version`
 	- `pip3 --version`
@@ -49,7 +50,10 @@
 - Most commonly used for interpreted languages
 - Interpreter helps you debug within the IDE
 
-**Install the Python Extension in VSC**
+**CHECK PYTHON BUNDLE IN TEXTMATE**
+- TextMate>Settings>Variables
+- add:
+`TM_PYTHON` and `pathtopython2here`
 
 **Running Python: hands.py**
   - CLI

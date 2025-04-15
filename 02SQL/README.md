@@ -5,6 +5,8 @@
 - Functions: actions/verbs
 - Bindings/Variables: meaning grasps and holds values
 - List/array: collection of values
+![listanatomy](listanatomy.png)
+
 - Loops: cycles/reiterations of execution
 - Syntax: expectations information organization
 - Conditions: Check for "Truthiness" with Boolean Logic
@@ -91,7 +93,7 @@
 **SQLite Data Types**
 - Integer: + or - whole number
 - Real: Floating Point
-- Text: String (sequences of characters, indexed from 0 [indices are an array of addresses])
+- Text: String (sequences of characters, indexed from 0 in a list/array)
 - Numeric: boolean, date (YYYY-MM-DD)
 - BLOB: Binary Large OBject, can store any kind of data
 
