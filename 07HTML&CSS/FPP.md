@@ -8,7 +8,7 @@ TODO
 
 TODO
 
-## List at least 3 resources you know you will use in developing your project
+## List at least 3 SPECIFIC resources you know you will use in developing your project! Links! Not "Rachel's Class Repository!" Not ChatGPT! Not "YouTube"!
 
 TODO
 
