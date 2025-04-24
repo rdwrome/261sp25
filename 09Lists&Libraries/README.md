@@ -42,6 +42,7 @@
 - DO YOU NEED TO INSTALL COMMAND LINE TOOLS? YES! PLEASE DO! `xcode-select --install`
 - WHERE IS IT?
 	- `which python3`
+	- COPY THIS FILE PATH
 - Check your pip!
 	- `pip --version`
 	- `pip3 --version`
@@ -52,12 +53,12 @@
 
 **CHECK PYTHON BUNDLE IN TEXTMATE**
 - TextMate>Settings>Variables
-- add:
-`TM_PYTHON` and `pathtopython2here`
+- add the file path you copied from 'which python3', something like:
+`TM_PYTHON` and `/opt/homebrew/bin/python3`
 
 **Running Python: hands.py**
-  - CLI
   - IDE
+  - CLI
 
 - CODE ALONG
 ```Python
@@ -99,30 +100,6 @@ print(circle_area(3.0))
 - The first index starts at 0.
 
 ![listanatomy](listanatomy.png)
-
-```python
-# up to this point, we only knew how to create
-# multiple piece of data using multiple variables
-x = 1
-y = 2
-z = 3
-
-# If we use list, we can create a variable
-# that can hold three values in one line
-a = [1, 2, 3]
-
-# Create a list of strings
-strings = ['violin', 'viola', 'cello']
-
-# Create a list of booleans
-bools = [True, False, True]
-
-# Create a list with mix type
-mixed = ['violin', 200, True, 7.5]
-
-# Print out a list
-print(mixed)
-```
 
 ### Accessing & Amending List Elements
 - Reference an element by its index number
@@ -176,8 +153,7 @@ print(menu[1:]) # ['Guitar', 'Bass']
 print(menu[1:2]) # ['Guitar']
 # Slice nothing
 print(menu[1:1]) # []
-# Slice indices 0 and 2
-print(menu[0:3:2]) # ['Drum', 'Bass']
+
 ```
 
 - List manipulation
@@ -234,28 +210,23 @@ print(instruments)
 - Access variables and functions in the module wusing the **.** operator
 - Then rename the module, if you like, with the 'as' keyword
 ```Python
-# import a module named random
-import random
-# Generate random number using random() function
-print(random.random())
+# standard import
+import math
+print(math.sqrt(16))
 
-# Rename the random module to r with the 'as' keyword
-import random as r
-print(r.random())
-```
-### From...Import
-- Imports only specific features of the module
-- Not importing features you don't need keeps your use of the module efficient
-- You can use 'as' with this as well
-```Python
-# import only the random function
-from random import random
-print(random())
+# alias
+import math as m
+print(m.sqrt(16))
 
-# import only the random function and rename it
-from random import random as r
-print(r())
+# selective import
+from math import sqrt
+print(sqrt(16))
+
+# selective import with alias
+from math import sqrt as square_root
+print(square_root(16))
 ```
+
 ### Help!
 - See what's inside the module with the help function
 - Press *q* to exit
