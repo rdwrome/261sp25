@@ -32,7 +32,7 @@
   		- overriding: walking to walking backwards
   		- overloading: walking to running
 
- ## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
+## [Python vs Javascript](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
 
 **[Do You Have Python3?](https://www.python.org/downloads/)**
 - More functional standard libraries than 2
@@ -75,7 +75,7 @@ def circle_area(x):
   return x * x * 3.14
 #call
 print(circle_area(3.0))
- 
+``` 
  
 # Lists
 ## Lists vs Arrays
@@ -123,6 +123,7 @@ mixed = ['violin', 200, True, 7.5]
 # Print out a list
 print(mixed)
 ```
+
 ### Accessing & Amending List Elements
 - Reference an element by its index number
 
@@ -133,7 +134,9 @@ print(instruments[0]) # Drum
 print(instruments[1]) # Guitar
 print(instruments[2]) # Bass
 ```
+
 - List Repetition
+
 ```python
 # Repeat 0 five times. The result is a single list
 numbers = [0] * 5
@@ -143,7 +146,9 @@ print(numbers) # [0, 0, 0, 0, 0]
 numbers = [0, 1, 2] * 3
 print(numbers) # [0, 1, 2, 0, 1, 2, 0, 1, 2]
 ```
+
 - List mechanics with an update
+
 ```python
 old_instruments = ['Drum', 'Guitar', 'Bass']
 new_instruments = old_instruments
@@ -158,7 +163,9 @@ new_instruments[0] = 'Percussion'
 print(old_instruments)
 print(new_instruments)
 ```
+
 - List slicing
+
 ```python
 menu = ['Drum', 'Guitar', 'Bass']
 # Slice indices 1 and 2
@@ -172,7 +179,9 @@ print(menu[1:1]) # []
 # Slice indices 0 and 2
 print(menu[0:3:2]) # ['Drum', 'Bass']
 ```
+
 - List manipulation
+
 ```python
 menu = ['Drum', 'Guitar', 'Bass']
 print(menu)
@@ -189,9 +198,11 @@ print(menu)
 # Get the length of list
 print('The length of list is:', len(menu))
 ```
+
 ### Lists & Loops
 - You can use a for loop to iterate through a list
 - This is called *list traversal*
+
 ```Python
 instruments = ['Drum', 'Guitar', 'Bass']
 
@@ -209,7 +220,8 @@ for instrument in instruments:
 
 print(instruments)
 ```
-## Exersizes
+
+## Exersize
 - Write a program that converts 99 Fahrenheit to Celsius
 - Create two variables, **f** and **c**
 - Use the equation:
