@@ -1,28 +1,31 @@
-# AI & ML
+# ML & AI
 
-## Singularity & Cyborgs
+## related vocabulary...
+#### **Singularity & Cyborgs**
 - [Ray Kurzweil](https://www.goodreads.com/book/show/83518.The_Singularity_is_Near)
 - [Donna Haraway](https://en.wikipedia.org/wiki/A_Cyborg_Manifesto)
 
-## Uncanny Valley
-- [Turing Test](http://web.cse.ohio-state.edu/~stiff.4/cse3521/turing-test.html)
-- Bots
+#### **Uncanny Valley**
+- Turing Test
+- Bots & your parents
 - [Cats (2019)](https://www.youtube.com/watch?v=FtSd844cI7U)
 - Robots: OK, Humans: OK. Can't tell? Not OK
-- Your ability to tell is **socially-constructed**
+- One's ability to tell a robot from a human is **socially-constructed**
 - [AIVA](https://www.youtube.com/watch?v=6I3aKYyKl68)
+- [Google Translate](https://translate.google.com/)
 - The concept of "smart" is **socially-constructed**
 
-## Early 'AI'
-- "Science of Making Machines Smart" - Demis Hassabis (Google DeepMind)
-- Make a machine do something 'smart,' automatically adapt to users, provide them unique experience
-- Early methods include **Logic or Expert Systems**
-  - Creator 'solves' problem
-  - [DeepBlue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))
-  - Can't deal with the unexpected, can't learn anything new
+## Silicon Valley/Capitalism vs Academia **ML vs AI** definitions
+- Machine Learning: machine can automatically adapt to users, learn new things, and automatically adapt to those new things
+- AI is "Science of Making Machines Smart" - Demis Hassabis (Google DeepMind)...
 
-## Machine Learning
-  - Machine can learn new things
+## Early AI: **Logic or Expert Systems**
+- Creator 'solves' problem for the machine, provides the solutions to the machine
+- [DeepBlue](https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer))
+- Machine can't deal with the unexpected, can't learn anything new, but does automatically adapt to users
+
+## **Machine Learning**
+- Machine can learn new things
   
 #### Types of Machine Learning
   - Supervised (training data has all the answers)
@@ -43,19 +46,15 @@
   - Transparent Data Gathering Practices?
   - Transparent Training Practices?
   - Transparent Model Distribution?
-  - [Google Translate](https://translate.google.com/)
-  - [chatGPT-3](https://www.nytimes.com/2022/04/15/magazine/ai-language.html?searchResultPosition=2)
-  - but can it learn **beyond its training data**?
 
-## 'Generative AI' (capitalist branding of Machine Learning)
-- automatically adapts to users, provide them unique experiences
-- can learn new things
+## **'Generative AI'** (capitalist branding of Machine Learning)
 ##### Large Language Models 
 - chatGPT (openAI...Microsoft), llama (META), Gemini (Google)
 ##### izotope, logic, others?
 
+## Embodiment
+
 ### [Artificial General Intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
-- 'true AI' according to AI researchers, not yet in public use
 - Neural Networks
   - identifies + reproduces patterns in the same way a human brain does (car+broom == vacuum)
   - used to be called "deep learning"
